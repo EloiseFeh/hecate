@@ -1,0 +1,6 @@
+.MenuDiv{
+    height: 10vh;
+    background-color: aqua;
+    position: fixed;
+    bottom: 0;
+}
