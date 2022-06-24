@@ -1,6 +1,25 @@
-.MenuDiv{
+.navbar{
     height: 10vh;
-    background-color: aqua;
+    width: 100vw;
+    background-color: #520064;
     position: fixed;
     bottom: 0;
+    color: white;
+}
+
+.navbar-nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0 !important;
+}
+
+.nav-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
 }

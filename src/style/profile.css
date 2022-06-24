@@ -1,0 +1,15 @@
+.header{
+    padding: 5%;
+    width: 100vw;
+    background-color: #520064;
+    position: fixed;
+    top: 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header label{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
