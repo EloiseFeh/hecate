@@ -3,8 +3,6 @@ import FilterAltOutlinedIcon from '@mui/icons-material/FilterAltOutlined';
 import Parse from 'parse/dist/parse.min.js';
 import React, { useState } from 'react';
 import { Button } from '@mui/material';
-import {Image} from  'react';
-
 
 export default function Library() {
 
