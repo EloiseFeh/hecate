@@ -1,22 +1,29 @@
-.navbar{
+.menu{
     height: 10vh;
     width: 100vw;
     background-color: #520064;
     position: fixed;
     bottom: 0;
     color: white;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
 }
 
-.navbar-nav{
+.menu-nav{
     display: flex;
     list-style: none;
     justify-content: space-around;
     padding: 0 !important;
+    width: 100%;
+    margin: 0 !important;
+    align-items: center;
 }
 
 .nav-item{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .nav-link{
