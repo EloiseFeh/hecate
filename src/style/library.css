@@ -13,3 +13,12 @@
         font-size: 1.5rem;
         font-weight: 500;
     }
+
+.body-container{
+    margin-top: 25%;
+    height: 100vh;
+}
+
+.MuiPaper-root{
+    margin: 0;
+}
