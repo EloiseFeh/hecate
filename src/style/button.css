@@ -11,3 +11,9 @@
     justify-content: center;
     align-items: center;
 }
+
+.button:hover{
+    border: 1px solid #C9517A;
+    background-color: white;
+    color: #C9517A;
+}

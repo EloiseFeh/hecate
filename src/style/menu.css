@@ -30,3 +30,7 @@
     text-decoration: none;
     color: white;
 }
+
+.nav-link:visited{
+    color: white;
+}
