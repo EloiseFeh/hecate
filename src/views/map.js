@@ -20,7 +20,7 @@ export default function Map() {
   return (
     <div>
       <div className="header">
-        <label>Mapa</label>
+        <h2>Mapa</h2>
       </div>
       <div className="row">
         <MapContainer

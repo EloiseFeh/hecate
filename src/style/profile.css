@@ -1,3 +1,4 @@
+/* Pagina de Perfil - Estilos Gerais */
 .header{
     padding: 5%;
     width: 100vw;
@@ -12,4 +13,59 @@
 .header label{
     font-size: 1.5rem;
     font-weight: 500;
+}
+
+.body-container{
+    margin-top: 25%;
+    height: 100vh;
+}
+
+h4{
+    color: #520064;
+    font-weight: 500;
+}
+
+.messageText{
+    color: #520064;
+}
+
+/* Componente - Informações de Perfil */
+
+.profileInfo-div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.first{
+    border-bottom: 3px solid rgba(201, 81, 122, 0.5);
+}
+
+.profile-figure{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 !important;
+}
+
+.txtinfo-div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5%;
+    color: #520064;
+}
+
+/* Componente - Perfil de amiga */
+
+.profileFriend-figure{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 !important;
+}
+
+.name-label{
+    font-size: 1rem;
 }

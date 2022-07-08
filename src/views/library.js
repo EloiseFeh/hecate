@@ -30,7 +30,7 @@ export default function Library() {
   return (
     <div className="body-container">
       <div className="header">
-        <label>Biblioteca Hecate</label>
+        <h2>Biblioteca Hecate</h2>
       </div>
       <div className="container">
         {posts !== null &&
