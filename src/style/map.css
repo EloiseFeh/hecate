@@ -14,14 +14,13 @@
     font-weight: 500;
 }
 
-.mapView {
-    padding: 1rem;
-    box-sizing: border-box;
-    display: block;
-}
-
 .row {
     display: flex;
     flex-wrap: wrap;
     margin: 0 calc(var(--ifm-spacing-horizontal)*-1);
+}
+
+.leaflet-container {
+    margin-top: 19%;
+    height: 83vh;
 }
