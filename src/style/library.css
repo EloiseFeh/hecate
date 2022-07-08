@@ -13,3 +13,13 @@
         font-size: 1.5rem;
         font-weight: 500;
     }
+
+.body-container{
+    margin-top: 25%;
+    height: 100vh;
+}
+
+.css-1ri6ub7-MuiPaper-root-MuiCard-root{
+    max-width: 100% !important;
+    margin: 0 8%;
+}
