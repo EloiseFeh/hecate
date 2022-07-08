@@ -45,10 +45,10 @@ export default function Library() {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    {`Name: ${post.get("title")}`}
+                    {`${post.get("title")}`}
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    {`Autor: ${post.get("author")}`}
+                    {`${post.get("author")}`}
                   </Typography>
                 </CardContent>
               </Card>
