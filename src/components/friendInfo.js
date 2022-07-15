@@ -6,7 +6,7 @@ export default function FriendInfo(props) {
       <figure className="profileFriend-figure"></figure>
       <div className="txtinfo-div">
         <label className="name-label">{props.name}</label>
-        <span className="phone-span">(85) 99999-9999</span>
+        <span className="phone-span">(85) 98730-5363</span>
       </div>
     </div>
   );

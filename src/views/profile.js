@@ -12,6 +12,7 @@ export default function Profile() {
     e.preventDefault();
     localStorage.setItem("MENSAGEM", mensagem);
     setMensagem(mensagem);
+    alert("Mensagem alterada com sucesso!");
   };
 
   useEffect(() => {

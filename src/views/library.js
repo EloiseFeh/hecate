@@ -3,7 +3,7 @@ import "../style/library.css";
 import Parse from "parse/dist/parse.min.js";
 import React, { useEffect, useState } from "react";
 import { Card, CardContent, CardMedia, Typography } from "@mui/material";
-
+import PanicButton from "../components/panicButton";
 export default function Library() {
   const [posts, setPosts] = useState(null);
 
@@ -27,6 +27,7 @@ export default function Library() {
         <h2>Biblioteca Hecate</h2>
       </div>
       <div className="container">
+        <PanicButton />
         {posts !== null &&
           posts.map((post, i) => {
             return (

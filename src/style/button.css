@@ -17,3 +17,19 @@
     background-color: white;
     color: #C9517A;
 }
+
+/* PANIC BUTTON */
+
+.panic-button{
+    background:#C566DA;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 12%;
+    right: 5%;
+}
