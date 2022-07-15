@@ -19,7 +19,11 @@
     height: 100vh;
 }
 
-.css-1ri6ub7-MuiPaper-root-MuiCard-root{
+.MuiCard-root{
     max-width: 100% !important;
-    margin: 0 8% !important;
+    margin: 8% !important;
+}
+
+.container {
+    padding-bottom: 60px;
 }
