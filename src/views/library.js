@@ -2,13 +2,7 @@ import "../style/library.css";
 // import FilterAltOutlinedIcon from '@mui/icons-material/FilterAltOutlined';
 import Parse from "parse/dist/parse.min.js";
 import React, { useEffect, useState } from "react";
-import {
-  Button,
-  Card,
-  CardContent,
-  CardMedia,
-  Typography,
-} from "@mui/material";
+import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 
 export default function Library() {
   const [posts, setPosts] = useState(null);

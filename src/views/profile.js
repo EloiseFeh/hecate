@@ -2,9 +2,22 @@ import "../style/profile.css";
 import ProfileInfo from "../components/profileInfo";
 import FriendInfo from "../components/friendInfo";
 import Button from "../components/button";
-import DefaultMessage from "../components/defaultMessage";
+import TextareaAutosize from "@mui/material/TextareaAutosize";
+import React, { useState, useEffect } from "react";
 
 export default function Profile() {
+  const [mensagem, setMensagem] = useState(localStorage.getItem("MENSAGEM"));
+
+  const UpdateMsn = (e) => {
+    e.preventDefault();
+    localStorage.setItem("MENSAGEM", mensagem);
+    setMensagem(mensagem);
+  };
+
+  useEffect(() => {
+    console.log("mensagem ", mensagem);
+  }, [mensagem]);
+
   return (
     <div className="body-container">
       <div className="header">
@@ -23,8 +36,17 @@ export default function Profile() {
 
         <div className="Mensagem">
           <h4 className="mb-3">Mensagem</h4>
-          <DefaultMessage />
-          <Button text="Editar Mensagem" />
+          <form class="formMensagem" onSubmit={UpdateMsn}>
+            <TextareaAutosize
+              aria-label="minimum height"
+              minRows={3}
+              placeholder="Escreva sua mensagem"
+              style={{ width: 300 }}
+              value={mensagem}
+              onChange={(e) => setMensagem(e.target.value)}
+            />
+            <Button text="Editar Mensagem" />
+          </form>
         </div>
       </div>
     </div>
